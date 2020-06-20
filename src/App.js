@@ -9,8 +9,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+      <Link color="primary" href="">
+        Omama Zainab
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -22,10 +22,9 @@ export default function App() {
   return (
     <Container maxWidth="sm">
       <Box my={4}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Create React App v4-beta example
+        <Typography variant="h4" component="h1" gutterBottom align="center">
+          Material UI practice
         </Typography>
-        {/* <ProTip /> */}
         <Copyright />
       </Box>
     </Container>
