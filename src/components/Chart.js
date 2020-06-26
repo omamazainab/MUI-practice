@@ -12,7 +12,7 @@ export const Chart = () => {
               {
                 label: "level of thiccness",
                 data: [23,29,40,50,60],
-                backgroundColor: ["rgba(75, 192, 192, 0.6)"],
+                backgroundColor: ["rgba(75, 192, 192, 0.6)",'rgba(75, 192, 192, 0.6)','rgba(75, 192, 192, 0.6)'],
                 borderWidth: 4
               }
             ]
